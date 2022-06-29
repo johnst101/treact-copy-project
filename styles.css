@@ -421,11 +421,27 @@ margin: 16px 0;
 
 .price__column{
   border: 1px solid #e5e7eb;
-  border-top: 6px solid;
-  border-image-source: linear-gradient();
   border-radius: 10px;
-  padding: 8px 32px 0 32px;
-  width: 320px;
+  margin: 8px 32px 0 32px;
+  width: calc(100%/3);
+}
+
+.business__price--column{
+  background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.personal__top--bar{
+  height: 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129,230,217) 100%);
+}
+
+.enterprise__top--bar{
+  height: 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .price__element{
@@ -446,6 +462,28 @@ margin: 16px 0;
   border-bottom: 2px solid #e5e7eb;
 }
 
-.price__button--wrapper{
-  
+.price__info--title{
+  font-size: 18px;
+  font-weight: 700;
 }
+
+.business__text{
+  color: white;
+}
+
+.buy__now--personal{
+  background: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129,230,217) 100%);
+}
+
+.buy__now--business{
+  background-color: white;
+  color: #6415ff;
+}
+
+.buy__now--enterprise{
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/* .price__info--feature{
+  margin-top: 20px 0;
+} */
